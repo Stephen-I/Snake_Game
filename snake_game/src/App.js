@@ -38,6 +38,7 @@ function App() {
       return Math.floor((Math.random() * canvas[i]) / scale);
     });
   };
+  console.log(createApple());
   const checkCollision = (piece, body = snake) => {
     if (
       piece[0] * scale >= canvas[0] ||
