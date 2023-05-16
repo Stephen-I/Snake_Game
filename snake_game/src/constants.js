@@ -1,4 +1,3 @@
-export const canvas = [800, 800];
 export const snakeStart = [
   [8, 7],
   [8, 8],
