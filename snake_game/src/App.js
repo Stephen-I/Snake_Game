@@ -34,7 +34,7 @@ function App() {
     keyCode >= 37 && keyCode <= 40 && setDir(directions[keyCode]);
   };
   const createApple = () => {
-    apple.map((_, i) => {
+    return apple.map((_, i) => {
       return Math.floor((Math.random() * canvas[i]) / scale);
     });
   };

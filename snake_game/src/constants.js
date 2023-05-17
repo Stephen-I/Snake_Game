@@ -4,7 +4,7 @@ export const snakeStart = [
   [8, 8],
 ];
 export const appleStart = [8, 3];
-export const scale = 30;
+export const scale = 25;
 export const speed = 300;
 export const directions = {
   38: [0, -1], //up
